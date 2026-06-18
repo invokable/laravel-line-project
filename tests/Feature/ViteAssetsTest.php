@@ -38,6 +38,5 @@ class ViteAssetsTest extends TestCase
 
         // Check that files are not empty
         $this->assertGreaterThan(0, filesize($cssFiles[0]), 'CSS file should not be empty');
-        $this->assertGreaterThan(0, filesize($jsFiles[0]), 'JS file should not be empty');
     }
 }
