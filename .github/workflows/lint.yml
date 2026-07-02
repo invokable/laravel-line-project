@@ -27,7 +27,7 @@ jobs:
         run: vendor/bin/pint
 
       - name: Commit Changes
-        uses: stefanzweifel/git-auto-commit-action@v7
+        uses: stefanzweifel/git-auto-commit-action@v7.1.0
         with:
           commit_message: fix code style
           commit_options: '--no-verify'
